@@ -1,0 +1,29 @@
+
+server:
+  port: 8888
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          host-key: AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBC1Sg96+K5rc8ZTYhidXI1Q6qUBRgrC51I2pUop4xo4keH8r/5V1W+z2dZNKZsVLW12ulIAe9yorXt2MrI8V0XE=
+          host-key-algorithm: ssh-rsa
+          ignore-local-ssh-settings: true
+          private-key: |
+                        -----BEGIN RSA PRIVATE KEY-----
+                        MIICXQIBAAKBgQCD/jPRONL7KEgvrgB5yweRLj9QFmoDI+PR28rrzh8pJEn2QTIP
+                        rwKwg1IfQr2F/OyhIreAaBF3vI4+yPtIuSD8WPDSSPSakdQ4sNmeOJ1g/Vo6F6l4
+                        gz3YeJhEESOaszbeUZxuzsUpPl016Wf1B8857Hh+p5qAQISF2Je6Cj9xhwIDAQAB
+                        AoGBAIL2OHGRwPxD9oOgUIaHZMWurlEHPD5LYOK7Ana+9/n5MI1uGH6pNbDvSw8L
+                        SEJmNl6WtJ1qJFK6OiSfg3ufe9KYaMY39I77RW5XbvYuOhnmWmT1N0+Qsxra6h/l
+                        b+yxAjz54dLnlV+HaJ7B2hwc5l/srZFf1MaAR5/2nql4mI9BAkEAvmCtRXVzuwoX
+                        8WOJP3W+5L7umJc8l43EXWcaDTRAyTFJnQllYMFAfKlGXjTQX9Lf8SGp34CaeX3+
+                        e/0jlqk54QJBALF9ij/X1Opu7RZ6eR/gpUV9l+X3Wnuu1hJYhsaH9ml5DjgBlk/S
+                        XL5xR1Lx/KIWFoelZ5G0KmDnj001OwreKGcCQDwHjftd6q0qpJwX77oT7aqBTgjN
+                        f2ymZimxjfRl6pvGL9kVkmLs7OGiGq8v5hihDL4jCEaSbaMriGgeTO9/0uECQCsx
+                        nwxsbQ9kUWRwB7wfQnlH2EiJysZgxQ4P5zS3b9s5L6GnmTnxuspJ7Q6df1q+v1rh
+                        gPPvgYS1taUXeDfr2q8CQQCjZ58jqsumVaTpaDwNNDsWMZ2vgethITTr6h+4sVnw
+                        Y8QDOmoRGBEJ67ViCx10GNqeC6+A70x9LwrZlorQoiFG
+                        -----END RSA PRIVATE KEY-----
+          strict-host-key-checking: false
+          uri: git@github.ibm.com:nagavel-rajagopal/spring-configuration.git
